@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": true,
+            "database": "./database/database.sqlite",
+            "dialect": "SQLite",
+            "name": "db_sqllite"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
