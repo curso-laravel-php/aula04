@@ -8,7 +8,11 @@
                 <div class="card-header">Usuarios</div>
 
                 <div class="card-body">
-                    @json($usuarios)
+                    <ol>
+                        @foreach ($usuarios as $usuario)
+                            <li>{{$usuario->name}}</li>
+                        @endforeach
+                    </ol>
                 </div>
             </div>
         </div>
